@@ -1,0 +1,5 @@
+---
+- hosts: service
+  remote_user: ubuntu
+  roles:
+    - role/dotfiles
